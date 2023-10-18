@@ -1,4 +1,4 @@
-This project was created based on websocket(specifically spring websocket) and implemented with spring boot and jquery
+This game (also known as Mancala), was created based on websocket (specifically spring websocket) and implemented with spring boot (by Omid Rostami) and jQuery (AliReza HajiBandeh)
 # Build docker image
 just run this command to build corresponding iamge `docker build -t kahala-app .`
 
