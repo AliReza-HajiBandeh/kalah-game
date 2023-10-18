@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Kalaha</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+<main>
+    <div id="kalaha">
+        <div class="house player-one">
+            <div id="7" class="cell">
+                <span class="user-name"></span>
+                <span class="state"></span>
+            </div>
+        </div>
+        <div id="pits">
+            <div class="pits-row player-one">
+                <div class="pit">
+                    <div id="6" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="5" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="4" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="3" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="2" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="1" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="pits-row player-two">
+                <div class="pit">
+                    <div id="8" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="9" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="10" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="11" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="12" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+                <div class="pit">
+                    <div id="13" class="cell">
+                        <span class="state"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="house player-two">
+            <div id="14" class="cell">
+                <span class="user-name"></span>
+                <span class="state"></span>
+            </div>
+        </div>
+    </div>
+    <div id="gameId" class="status">
+        gameId: 1
+    </div>
+    <div id="playerTurn" class="status">
+        playerTurn:
+    </div>
+    <div id="ctrl">
+        <button type="button" onclick="newGame()">New Game</button>
+        <button type="button" onclick="connectGame()">Connect Game</button>
+        <button type="button" onclick="randomGame()">Random Game</button>
+    </div>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.4.0/sockjs.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
